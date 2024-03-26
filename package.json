@@ -2,6 +2,10 @@
   "name": "classname-string-to-css-module",
   "displayName": "ClassName String to CSS Module",
   "description": "Convert classname strings to csss modile style object properties.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/William-Owen/classname-string-to-css-module"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.87.0"
