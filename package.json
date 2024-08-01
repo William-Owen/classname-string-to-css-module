@@ -25,14 +25,14 @@
     }]
 },
   "scripts": {
-    "vscode:prepublish": "pnpm run compile",
+    "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
-    "pretest": "pnpm run compile && pnpm run lint",
+    "pretest": "npm run compile && npm run lint",
     "lint": "eslint src --ext ts",
     "test": "vscode-test",
-    "package": "pnpm vsce package --no-dependencies",
-    "publish": "pnpm vsce publish --no-dependencies"
+    "package": "npm vsce package --no-dependencies",
+    "publish": "npm vsce publish --no-dependencies"
   },
   "devDependencies": {
     "@types/vscode": "^1.87.0",
