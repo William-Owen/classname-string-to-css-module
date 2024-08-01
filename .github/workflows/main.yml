@@ -28,7 +28,7 @@ jobs:
         run: npx vsce package
 
       - name: Upload VSIX file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: vsix-file
           path: '*.vsix'
@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Download VSIX file
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: vsix-file
 
